@@ -3,6 +3,7 @@ import './App.css';
 import Banner from './Banner';
 import Exhibit from './Exhibit';
 import PublicIPAddress from './PublicIpAddress';
+import PacketLatency from './PacketLatency';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Exhibit title="Sample Exhibit">
         <PublicIPAddress version="ipv4" />
         <PublicIPAddress version="ipv6" />
+        <PacketLatency />
       </Exhibit>
     </div>
   );
